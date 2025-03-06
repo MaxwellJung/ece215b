@@ -2,8 +2,8 @@
 <statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/06/2025 06:15:49" version="5">active
 	<Test Name="final_project_Decoder_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
-			<field Name="designInfo" Type="list">("final_project" "Decoder" "schematic" "spectre")</field>
-			<field Name="projectDir" Type="string">"/w/home.05/home/lefsbruin19/simulation/final_project/Decoder/maestro/results/maestro/.tmpADEDir_lefsbruin19/final_project_Decoder_1/simulation"</field>
+			<field Name="designInfo" Type="list">("eDRAMLib" "Decoder" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/w/home.05/home/lefsbruin19/simulation/eDRAMLib/Decoder/maestro/results/maestro/.tmpADEDir_lefsbruin19/final_project_Decoder_1/simulation"</field>
 			<field Name="descriptiontext" Type="string">"None"</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>

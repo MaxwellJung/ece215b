@@ -7,12 +7,12 @@
 			<uuid>{b1820a5a-550d-4873-a02f-a5998186304d}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/w/home.05/home/lefsbruin19/Winter_2025/ee215b/Final_Project/ece215b/final_project/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/w/home.05/home/lefsbruin19/Winter_2025/ee215b/Final_Project/ece215b/final_project/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/w/home.05/home/lefsbruin19/simulation/final_project/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/final_project/4X16_Decoder/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
 		</historyentry>
 	</history>
 </setupdb>

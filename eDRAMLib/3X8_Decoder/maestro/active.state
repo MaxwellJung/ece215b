@@ -3,8 +3,8 @@
 	<Test Name="final_project_3X8_Decoder_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="designInfo" Type="list">("final_project" "3X8_Decoder" "schematic" "spectre")</field>
-			<field Name="projectDir" Type="string">"/w/home.05/home/lefsbruin19/simulation/final_project/3X8_Decoder/maestro/results/maestro/.tmpADEDir_lefsbruin19/final_project_3X8_Decoder_1/simulation"</field>
+			<field Name="designInfo" Type="list">("eDRAMLib" "3X8_Decoder" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/w/home.05/home/lefsbruin19/simulation/eDRAMLib/3X8_Decoder/maestro/results/maestro/.tmpADEDir_lefsbruin19/final_project_3X8_Decoder_1/simulation"</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable

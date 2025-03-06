@@ -7,12 +7,12 @@
 			<uuid>{92e96f6a-df63-45e5-8a62-fa3d9fb37220}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/w/home.07/home/maxwelljung/ece215b/final/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/w/home.07/home/maxwelljung/ece215b/final/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/w/home.07/home/maxwelljung/simulation/final/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/final/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<psfdir>/w/home.07/home/maxwelljung/simulation/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/w/home.07/home/maxwelljung/simulation/results/maestro/ExplorerRun.0</simdir>
 		</historyentry>
 	</history>
 </setupdb>

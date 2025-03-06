@@ -15,7 +15,7 @@
 						<value>Decoder</value>
 					</option>
 					<option>lib
-						<value>final_project</value>
+						<value>eDRAMLib</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
@@ -74,6 +74,7 @@
 						<value>1</value>
 					</var>
 				</vars>
+				<origoptions></origoptions>
 			</test>
 		</tests>
 		<extensions>
@@ -126,6 +127,5 @@
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
-	<history>History
-	</history>
+	<history>History</history>
 </setupdb>

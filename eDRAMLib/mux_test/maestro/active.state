@@ -2,9 +2,9 @@
 <statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/05/2025 23:59:06" version="5">active
 	<Test Name="final_mux_test_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
-			<field Name="projectDir" Type="string">"/w/home.07/home/maxwelljung/simulation/final/mux_test/maestro/results/maestro/.tmpADEDir_maxwelljung/final_mux_test_1/simulation"</field>
+			<field Name="projectDir" Type="string">"/w/home.07/home/maxwelljung/simulation/eDRAMLib/mux_test/maestro/results/maestro/.tmpADEDir_maxwelljung/final_mux_test_1/simulation"</field>
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="designInfo" Type="list">("final" "mux_test" "schematic" "spectre")</field>
+			<field Name="designInfo" Type="list">("eDRAMLib" "mux_test" "schematic" "spectre")</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable
