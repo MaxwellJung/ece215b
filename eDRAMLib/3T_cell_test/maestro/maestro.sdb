@@ -47,7 +47,11 @@
 						<value>0xDE</value>
 					</var>
 				</vars>
-				<outputs></outputs>
+				<outputs>
+					<output>/rbl_out&lt;31:0&gt;
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
