@@ -1,0 +1,35 @@
+// VerilogA for eDRAMLib, volts2word8, veriloga
+// hcopied from ttps://www.edaboard.com/threads/bit-pattern-generator-in-cadence-virtuoso.381773/
+// VerilogA 
+//     FUNCTION: Voltage to 8 bits
+//      VERSION: 0
+//      AUTHORS: Joe Mamas
+//           ON: whenever
+//
+// Description: Uses input voltage as input word and makes parallel 8 bit word output
+//  255Volts on vin = 11111111 on dout<7:0>
+//
+`include "constants.h"
+`include "discipline.h"
+`define NUM_BITS   8
+ 
+module volts2word8 (vin,vdd,vss,dout);
+input vin,vdd,vss;
+voltage vin,vdd,vss;
+output   [`NUM_BITS-1:0] dout;
+voltage  [`NUM_BITS-1:0] dout;
+real b;
+integer i,n;
+analog begin
+    b=V(vin);
+    generate i (`NUM_BITS-1, 0) begin
+        n=0;
+        if (b > (1<<i)-0.5) begin
+            n=1;
+            b=b-(1<<i);
+        end
+        V(dout[i]) <+ n*V(vdd)+(1-n)*V(vss);
+    end
+end
+ 
+endmodule
