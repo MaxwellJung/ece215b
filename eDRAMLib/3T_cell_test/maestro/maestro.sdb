@@ -32,9 +32,14 @@
 				</tooloptions>
 				<vars>
 					<var>t
-						<value>5n</value>
+						<value>2n</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>/I0/sn
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
