@@ -1,0 +1,9 @@
+// VerilogA for eDRAMLib, volts2word8, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module volts2word8;
+
+
+endmodule

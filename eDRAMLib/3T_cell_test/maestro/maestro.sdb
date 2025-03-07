@@ -34,12 +34,20 @@
 					<var>t
 						<value>2n</value>
 					</var>
+					<var>B0
+						<value>0xEF</value>
+					</var>
+					<var>B1
+						<value>0xBE</value>
+					</var>
+					<var>B2
+						<value>0xAD</value>
+					</var>
+					<var>B3
+						<value>0xDE</value>
+					</var>
 				</vars>
-				<outputs>
-					<output>/I0/sn
-						<evalType>point</evalType>
-					</output>
-				</outputs>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
