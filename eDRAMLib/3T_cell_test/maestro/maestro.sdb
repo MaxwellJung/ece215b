@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>final_mux_test_1
+			<test>eDRAMLib_3T_cell_test_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>mux_test</value>
+						<value>3T_cell_test</value>
 					</option>
 					<option>lib
 						<value>eDRAMLib</value>
@@ -31,11 +31,10 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>x
+					<var>t
 						<value>5n</value>
 					</var>
 				</vars>
-				<origoptions></origoptions>
 			</test>
 		</tests>
 		<extensions>
@@ -47,7 +46,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">final_mux_test_1</test>
+			<test netlist="0" netlistscope="all">eDRAMLib_3T_cell_test_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
