@@ -56,10 +56,10 @@
 						<value>0</value>
 					</var>
 					<var>i4
-						<value>1</value>
+						<value>0</value>
 					</var>
 					<var>i4_b
-						<value>0</value>
+						<value>1</value>
 					</var>
 					<var>i5
 						<value>1</value>
@@ -68,10 +68,10 @@
 						<value>0</value>
 					</var>
 					<var>i6
-						<value>0</value>
+						<value>1</value>
 					</var>
 					<var>i6_b
-						<value>1</value>
+						<value>0</value>
 					</var>
 				</vars>
 				<origoptions></origoptions>
@@ -127,5 +127,6 @@
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
-	<history>History</history>
+	<history>History
+	</history>
 </setupdb>
