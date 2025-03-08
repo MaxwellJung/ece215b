@@ -40,10 +40,24 @@
 					<output>/out&lt;31:0&gt;
 						<evalType>point</evalType>
 					</output>
-					<output>/wbl&lt;31:0&gt;
-						<evalType>point</evalType>
-					</output>
 				</outputs>
+				<vars>
+					<var>B0
+						<value>0</value>
+					</var>
+					<var>B1
+						<value>0</value>
+					</var>
+					<var>B2
+						<value>0</value>
+					</var>
+					<var>B3
+						<value>0</value>
+					</var>
+					<var>t
+						<value>2n</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>
