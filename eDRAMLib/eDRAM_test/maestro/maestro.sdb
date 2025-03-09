@@ -38,16 +38,16 @@
 						<value>0</value>
 					</var>
 					<var>dB0
-						<value>0xEF</value>
+						<value>0</value>
 					</var>
 					<var>dB1
-						<value>0xCD</value>
+						<value>255</value>
 					</var>
 					<var>dB2
-						<value>0xAB</value>
+						<value>0</value>
 					</var>
 					<var>dB3
-						<value>0x89</value>
+						<value>255</value>
 					</var>
 					<var>t
 						<value>2n</value>
