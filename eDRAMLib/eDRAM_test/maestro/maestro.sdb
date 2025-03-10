@@ -57,6 +57,9 @@
 					<output>/I0/rbl_amp&lt;31:0&gt;
 						<evalType>point</evalType>
 					</output>
+					<output>/I0/WL&lt;127:0&gt;
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>

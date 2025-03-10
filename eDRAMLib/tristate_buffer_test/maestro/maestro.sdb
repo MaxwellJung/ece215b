@@ -34,25 +34,22 @@
 					<output>"/en"
 						<evalType>point</evalType>
 					</output>
-					<output>/en
-						<evalType>point</evalType>
-					</output>
-					<output>/out&lt;31:0&gt;
+					<output>/WriteEn
 						<evalType>point</evalType>
 					</output>
 				</outputs>
 				<vars>
-					<var>B0
+					<var>dB0
 						<value>0</value>
 					</var>
-					<var>B1
+					<var>dB1
+						<value>255</value>
+					</var>
+					<var>dB2
 						<value>0</value>
 					</var>
-					<var>B2
-						<value>0</value>
-					</var>
-					<var>B3
-						<value>0</value>
+					<var>dB3
+						<value>255</value>
 					</var>
 					<var>t
 						<value>2n</value>
