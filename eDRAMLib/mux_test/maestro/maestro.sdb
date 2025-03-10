@@ -36,6 +36,14 @@
 					</var>
 				</vars>
 				<origoptions></origoptions>
+				<outputs>
+					<output>/s0_b
+						<evalType>point</evalType>
+					</output>
+					<output>/s1_b
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>

@@ -38,7 +38,7 @@
 						<value>1</value>
 					</var>
 					<var>midpoint
-						<value>988m</value>
+						<value>840m</value>
 					</var>
 				</vars>
 				<outputs>
@@ -70,6 +70,12 @@
 						<evalType>point</evalType>
 					</output>
 					<output>/prechg
+						<evalType>point</evalType>
+					</output>
+					<output>/rbl_p
+						<evalType>point</evalType>
+					</output>
+					<output>/rbl_b
 						<evalType>point</evalType>
 					</output>
 				</outputs>
