@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Mar 10 03:22:54 2025</timestamp>
-			<uuid>{3e26291e-5301-494a-b61d-2d3e494d2c28}</uuid>
+			<timestamp>Mar 10 15:07:53 2025</timestamp>
+			<uuid>{5f143f9a-079d-4b98-8168-2e6f921e1d9c}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/w/home.05/home/lefsbruin19/Winter_2025/ee215b/Final_Project/ece215b/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/w/home.05/home/lefsbruin19/Winter_2025/ee215b/Final_Project/ece215b/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/w/home.07/home/maxwelljung/simulation/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/w/home.05/home/lefsbruin19/simulation/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/eDRAMLib/mux_test/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
