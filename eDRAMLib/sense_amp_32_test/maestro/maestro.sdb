@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>eDRAMLib_eDRAM_test_1
+			<test>eDRAMLib_sense_amp_32_test_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>eDRAM_test</value>
+						<value>sense_amp_32_test</value>
 					</option>
 					<option>lib
 						<value>eDRAMLib</value>
@@ -31,41 +31,42 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>aB0
-						<value>6</value>
+					<var>midpoint
+						<value>0.5</value>
 					</var>
-					<var>aB1
-						<value>0</value>
-					</var>
-					<var>dB0
-						<value>0</value>
-					</var>
-					<var>dB1
-						<value>0</value>
-					</var>
-					<var>dB2
-						<value>255</value>
-					</var>
-					<var>dB3
-						<value>255</value>
-					</var>
-					<var>t
-						<value>2n</value>
+					<var>vd
+						<value>1</value>
 					</var>
 				</vars>
 				<outputs>
-					<output>/I0/rbl_amp&lt;31:0&gt;
+					<output>"/I44/wbl_b&lt;31&gt;"
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/WL&lt;127:0&gt;
+					<output>/I44/wbl_b&lt;31&gt;
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/net11&lt;31&gt;
+					<output>"/wbl\\"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I44/wbl&lt;31&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I44/j_wbl_i&lt;31&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/wbl"
+						<evalType>point</evalType>
+					</output>
+					<output>/wbl
 						<evalType>point</evalType>
 					</output>
 				</outputs>
 			</test>
 		</tests>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">eDRAMLib_sense_amp_32_test_1</test>
+		</checksasserts>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -73,10 +74,6 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
-		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">eDRAMLib_eDRAM_test_1</test>
-		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
