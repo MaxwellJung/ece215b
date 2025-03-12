@@ -32,10 +32,10 @@
 				</tooloptions>
 				<vars>
 					<var>aB0
-						<value>0</value>
+						<value>15</value>
 					</var>
 					<var>aB1
-						<value>0</value>
+						<value>15</value>
 					</var>
 					<var>dB0
 						<value>10</value>
@@ -50,7 +50,7 @@
 						<value>10</value>
 					</var>
 					<var>t
-						<value>4n</value>
+						<value>8n</value>
 					</var>
 				</vars>
 				<note>
