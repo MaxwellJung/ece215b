@@ -54,13 +54,37 @@
 					</var>
 				</vars>
 				<outputs>
-					<output>/I0/rbl_amp&lt;31:0&gt;
+					<output>"/I0/amp_out&lt;31:0&gt;"
 						<evalType>point</evalType>
 					</output>
 					<output>/I0/WL&lt;127:0&gt;
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/net11&lt;31&gt;
+					<output>"/I0/amp_out_b&lt;31&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/amp_out&lt;31:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/amp_out&lt;3&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/X"
+						<evalType>point</evalType>
+					</output>
+					<output>/X
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/amp_out_b&lt;0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/amp_out_b&lt;31:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/amp_out&lt;31&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/amp_out_b&lt;31:0&gt;
 						<evalType>point</evalType>
 					</output>
 				</outputs>
