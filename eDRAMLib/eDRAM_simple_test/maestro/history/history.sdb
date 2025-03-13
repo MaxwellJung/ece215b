@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Mar 12 19:53:00 2025</timestamp>
-			<uuid>{c7ae1913-ea47-4af9-b662-5dfaf7e00e1f}</uuid>
+			<timestamp>Mar 12 20:19:07 2025</timestamp>
+			<uuid>{92c9b537-4a35-4a97-a267-a53a4ee328ab}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/w/home.07/home/maxwelljung/ece215b/final/eDRAMLib/eDRAM_simple_test/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

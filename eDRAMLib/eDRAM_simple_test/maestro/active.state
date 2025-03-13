@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/12/2025 19:20:11" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/12/2025 20:13:59" version="5">active
 	<Test Name="eDRAMLib_eDRAM_test_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("eDRAMLib" "eDRAM_test" "schematic" "spectre")</field>
@@ -1839,9 +1839,9 @@
 						<field Name="noisefmax" Type="string">""</field>
 						<field Name="trannoisemethod" Type="string">"default"</field>
 						<field Name="tranNoise" Type="string">""</field>
-						<field Name="errpreset" Type="string">"liberal"</field>
+						<field Name="errpreset" Type="string">"conservative"</field>
 						<field Name="calcStop" Type="string">""</field>
-						<field Name="stop" Type="string">"5n"</field>
+						<field Name="stop" Type="string">"24n"</field>
 						<field Name="enable" Type="list">(t)</field>
 						<field Name="noiseinst" Type="string">""</field>
 						<field Name="dynParamB" Type="list">nil</field>
