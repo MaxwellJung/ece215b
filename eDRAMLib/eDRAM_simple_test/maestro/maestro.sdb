@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>eDRAMLib_eDRAM_test_1
+			<test>eDRAMLib_eDRAM_simple_test
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>eDRAM_test</value>
+						<value>eDRAM_simple_test</value>
 					</option>
 					<option>lib
 						<value>eDRAMLib</value>
@@ -100,6 +100,7 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistscope="all">eDRAMLib_eDRAM_test_1</test>
+			<test netlist="0" netlistscope="all">eDRAMLib_eDRAM_simple_test</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
