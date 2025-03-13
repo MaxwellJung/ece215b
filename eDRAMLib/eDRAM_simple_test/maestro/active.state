@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/12/2025 17:37:24" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/12/2025 19:20:11" version="5">active
 	<Test Name="eDRAMLib_eDRAM_test_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("eDRAMLib" "eDRAM_test" "schematic" "spectre")</field>
@@ -1841,7 +1841,7 @@
 						<field Name="tranNoise" Type="string">""</field>
 						<field Name="errpreset" Type="string">"liberal"</field>
 						<field Name="calcStop" Type="string">""</field>
-						<field Name="stop" Type="string">"20n"</field>
+						<field Name="stop" Type="string">"5n"</field>
 						<field Name="enable" Type="list">(t)</field>
 						<field Name="noiseinst" Type="string">""</field>
 						<field Name="dynParamB" Type="list">nil</field>
@@ -3612,7 +3612,7 @@
 				</field>
 				<field Name="saveComponent_6" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"t"</field>
-					<field Name="expression" Type="string">"10n"</field>
+					<field Name="expression" Type="string">"2n"</field>
 					<field Name="index" Type="fixnum">7</field>
 				</field>
 			</field>
