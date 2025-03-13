@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/13/2025 03:44:38" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/13/2025 04:06:05" version="5">active
 	<Test Name="eDRAMLib_eDRAM_test_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("eDRAMLib" "eDRAM_test" "schematic" "spectre")</field>
@@ -2893,7 +2893,7 @@
 						<field Name="selectionDetail" Type="list">((color ("y5" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
 						<field Name="plot" Type="symbol">t</field>
-						<field Name="save" Type="list">nil</field>
+						<field Name="save" Type="symbol">t</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
 						<field Name="index" Type="fixnum">20</field>
