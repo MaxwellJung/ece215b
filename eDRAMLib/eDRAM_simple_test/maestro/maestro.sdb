@@ -38,16 +38,16 @@
 						<value>1</value>
 					</var>
 					<var>dB0
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB1
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB2
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB3
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>t
 						<value>2n</value>
@@ -117,10 +117,10 @@
 					<output>nil
 						<evalType>point</evalType>
 					</output>
-					<output>Energy_Read
+					<output>Energy_W
 						<evalType>point</evalType>
 					</output>
-					<output>Energy_Write
+					<output>Energy_R
 						<evalType>point</evalType>
 					</output>
 				</outputs>
