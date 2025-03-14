@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/13/2025 14:16:53" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="03/13/2025 17:33:32" version="5">active
 	<Test Name="eDRAMLib_eDRAM_test_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("eDRAMLib" "eDRAM_test" "schematic" "spectre")</field>
@@ -2424,7 +2424,7 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">((color ("y7" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
+						<field Name="plot" Type="list">nil</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
@@ -2619,7 +2619,7 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">((color ("y6" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
@@ -2638,7 +2638,7 @@
 					<field Name="outputList_13" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/rbl&lt;31:0&gt;"</field>
+						<field Name="signal" Type="string">"/I0/rbl_b3&lt;31:0&gt;"</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
 						<field Name="evalType" Type="list">nil</field>
@@ -2656,7 +2656,7 @@
 						<field Name="depList" Type="list">nil</field>
 						<field Name="type" Type="symbol">net</field>
 						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y1" "drawing")))</field>
+						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
 						<field Name="plot" Type="list">nil</field>
 						<field Name="save" Type="list">nil</field>
@@ -2669,15 +2669,15 @@
 						<field Name="label" Type="list">nil</field>
 						<field Name="yaxisUnit" Type="list">nil</field>
 						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/rbl&lt;31:0&gt;"</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl_b3&lt;31:0&gt;"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/rbl&lt;31:0&gt;")</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b3&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
 					<field Name="outputList_14" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/rbl_b0&lt;31:0&gt;"</field>
+						<field Name="signal" Type="string">"/I0/rbl_b2&lt;31:0&gt;"</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
 						<field Name="evalType" Type="list">nil</field>
@@ -2695,7 +2695,7 @@
 						<field Name="depList" Type="list">nil</field>
 						<field Name="type" Type="symbol">net</field>
 						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y1" "drawing")))</field>
+						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
 						<field Name="plot" Type="list">nil</field>
 						<field Name="save" Type="list">nil</field>
@@ -2708,9 +2708,9 @@
 						<field Name="label" Type="list">nil</field>
 						<field Name="yaxisUnit" Type="list">nil</field>
 						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/rbl_b0&lt;31:0&gt;"</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl_b2&lt;31:0&gt;"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b0&lt;31:0&gt;")</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b2&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
 					<field Name="outputList_15" Type="defstruct">sevOutputStruct
@@ -2755,7 +2755,7 @@
 					<field Name="outputList_16" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/rbl_b2&lt;31:0&gt;"</field>
+						<field Name="signal" Type="string">"/I0/rbl_b0&lt;31:0&gt;"</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
 						<field Name="evalType" Type="list">nil</field>
@@ -2773,9 +2773,9 @@
 						<field Name="depList" Type="list">nil</field>
 						<field Name="type" Type="symbol">net</field>
 						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
+						<field Name="selectionDetail" Type="list">((color ("y1" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
@@ -2786,246 +2786,12 @@
 						<field Name="label" Type="list">nil</field>
 						<field Name="yaxisUnit" Type="list">nil</field>
 						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/rbl_b2&lt;31:0&gt;"</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl_b0&lt;31:0&gt;"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b2&lt;31:0&gt;")</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b0&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
 					<field Name="outputList_17" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/rbl_b3&lt;31:0&gt;"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">18</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/rbl_b3&lt;31:0&gt;"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b3&lt;31:0&gt;")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_18" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/rbl_b&lt;31:0&gt;"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y2" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">19</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/rbl_b&lt;31:0&gt;"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b&lt;31:0&gt;")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_19" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/AmpEn"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y5" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">20</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/AmpEn"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/AmpEn")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_20" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/amp_out&lt;7:0&gt;"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y9" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">21</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/amp_out&lt;7:0&gt;"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/amp_out&lt;7:0&gt;")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_21" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/amp_out_b&lt;7:0&gt;"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y9" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">22</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/amp_out_b&lt;7:0&gt;"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/amp_out_b&lt;7:0&gt;")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_22" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/DQ&lt;7:0&gt;"</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="list">nil</field>
-						<field Name="displayIt" Type="list">nil</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="updatedScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="symbol">net</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">((color ("y8" "drawing")))</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">23</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/DQ&lt;7:0&gt;"</field>
-						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/DQ&lt;7:0&gt;")</field>
-						<field Name="inLastSet" Type="list">nil</field>
-					</field>
-					<field Name="outputList_23" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl3_r127&lt;31:0&gt;"</field>
@@ -3052,7 +2818,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">24</field>
+						<field Name="index" Type="fixnum">18</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3064,7 +2830,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl3_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_24" Type="defstruct">sevOutputStruct
+					<field Name="outputList_18" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl2_r127&lt;31:0&gt;"</field>
@@ -3091,7 +2857,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">25</field>
+						<field Name="index" Type="fixnum">19</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3103,7 +2869,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl2_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_25" Type="defstruct">sevOutputStruct
+					<field Name="outputList_19" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl1_r127&lt;31:0&gt;"</field>
@@ -3130,7 +2896,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">26</field>
+						<field Name="index" Type="fixnum">20</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3142,7 +2908,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl1_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_26" Type="defstruct">sevOutputStruct
+					<field Name="outputList_20" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl0_r127&lt;31:0&gt;"</field>
@@ -3165,11 +2931,11 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">((color ("y8" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">27</field>
+						<field Name="index" Type="fixnum">21</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3181,7 +2947,46 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl0_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_27" Type="defstruct">sevOutputStruct
+					<field Name="outputList_21" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/rbl&lt;31:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y1" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">22</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl&lt;31:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/rbl&lt;31:0&gt;")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_22" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl_b3_r127&lt;31:0&gt;"</field>
@@ -3208,7 +3013,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">28</field>
+						<field Name="index" Type="fixnum">23</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3220,7 +3025,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b3_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_28" Type="defstruct">sevOutputStruct
+					<field Name="outputList_23" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl_b2_r127&lt;31:0&gt;"</field>
@@ -3247,7 +3052,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">29</field>
+						<field Name="index" Type="fixnum">24</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3259,7 +3064,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b2_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_29" Type="defstruct">sevOutputStruct
+					<field Name="outputList_24" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl_b1_r127&lt;31:0&gt;"</field>
@@ -3286,7 +3091,7 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">30</field>
+						<field Name="index" Type="fixnum">25</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3298,7 +3103,7 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b1_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
-					<field Name="outputList_30" Type="defstruct">sevOutputStruct
+					<field Name="outputList_25" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
 						<field Name="signal" Type="string">"/I0/rbl_b0_r127&lt;31:0&gt;"</field>
@@ -3321,11 +3126,11 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">((color ("y6" "drawing")))</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">31</field>
+						<field Name="index" Type="fixnum">26</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -3337,10 +3142,244 @@
 						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b0_r127&lt;31:0&gt;")</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
+					<field Name="outputList_26" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/rbl_b&lt;31:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y2" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">27</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl_b&lt;31:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/rbl_b&lt;31:0&gt;")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_27" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/AmpEn"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y5" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">28</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/AmpEn"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/AmpEn")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_28" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/amp_out&lt;7:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y9" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">29</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/amp_out&lt;7:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/amp_out&lt;7:0&gt;")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_29" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/amp_out_b&lt;7:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y9" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">30</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/amp_out_b&lt;7:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/I0/amp_out_b&lt;7:0&gt;")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_30" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/DQ&lt;7:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y8" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">31</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/DQ&lt;7:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/DQ&lt;7:0&gt;")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
 					<field Name="outputList_31" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">nil</field>
-						<field Name="signal" Type="string">"/I0/test"</field>
+						<field Name="signal" Type="string">"/I0/I25/net4"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y9" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">32</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/I25/net4"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_32" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/I25/wbl0&lt;7:0&gt;"</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
 						<field Name="evalType" Type="list">nil</field>
@@ -3364,16 +3403,94 @@
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="implicit" Type="list">nil</field>
-						<field Name="index" Type="fixnum">32</field>
+						<field Name="index" Type="fixnum">33</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
 						<field Name="label" Type="list">nil</field>
 						<field Name="yaxisUnit" Type="list">nil</field>
 						<field Name="waveSpec" Type="list">nil</field>
-						<field Name="uniqueName" Type="string">"/I0/test"</field>
+						<field Name="uniqueName" Type="string">"/I0/I25/wbl0&lt;7:0&gt;"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
-						<field Name="inValidObject" Type="list">(nil "/I0/test")</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_33" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/rbl0&lt;7:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y2" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">34</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl0&lt;7:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_34" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/I0/rbl_b0&lt;7:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">35</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/I0/rbl_b0&lt;7:0&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">nil</field>
 						<field Name="inLastSet" Type="list">nil</field>
 					</field>
 				</field>

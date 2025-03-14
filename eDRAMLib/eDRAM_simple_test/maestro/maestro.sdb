@@ -111,9 +111,6 @@
 					<output>/DQ&lt;7:0&gt;
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/test
-						<evalType>point</evalType>
-					</output>
 				</outputs>
 			</test>
 		</tests>
