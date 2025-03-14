@@ -111,6 +111,18 @@
 					<output>/DQ&lt;7:0&gt;
 						<evalType>point</evalType>
 					</output>
+					<output>IDC("/V0/PLUS")
+						<evalType>point</evalType>
+					</output>
+					<output>nil
+						<evalType>point</evalType>
+					</output>
+					<output>Energy_Read
+						<evalType>point</evalType>
+					</output>
+					<output>Energy_Write
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
