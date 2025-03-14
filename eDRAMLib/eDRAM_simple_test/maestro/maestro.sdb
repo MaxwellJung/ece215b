@@ -63,7 +63,7 @@
 					<output>"/I0/amp_out_b&lt;31&gt;"
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/amp_out&lt;31:0&gt;
+					<output>"/I0/amp_out&lt;7:0&gt;"
 						<evalType>point</evalType>
 					</output>
 					<output>"/I0/amp_out&lt;3&gt;"
@@ -84,7 +84,31 @@
 					<output>"/I0/amp_out&lt;31&gt;"
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/amp_out_b&lt;31:0&gt;
+					<output>"/I0/amp_out_b&lt;7:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/wbl_r64_0&lt;31:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/wbl_r64_1&lt;0:31&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/wbl_r64_1&lt;7:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>"/I0/wbl_r64_0&lt;7:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/wbl&lt;7:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/amp_out&lt;7:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/amp_out_b&lt;7:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/DQ&lt;7:0&gt;
 						<evalType>point</evalType>
 					</output>
 				</outputs>
