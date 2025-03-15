@@ -32,10 +32,10 @@
 				</tooloptions>
 				<vars>
 					<var>aB0
-						<value>255</value>
+						<value>0</value>
 					</var>
 					<var>aB1
-						<value>1</value>
+						<value>0</value>
 					</var>
 					<var>dB0
 						<value>255</value>
@@ -121,6 +121,9 @@
 						<evalType>point</evalType>
 					</output>
 					<output>Energy_R
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/I84/I9/I0&lt;31:0&gt;/sn
 						<evalType>point</evalType>
 					</output>
 				</outputs>
