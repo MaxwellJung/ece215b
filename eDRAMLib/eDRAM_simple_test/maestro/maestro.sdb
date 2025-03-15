@@ -32,22 +32,22 @@
 				</tooloptions>
 				<vars>
 					<var>aB0
-						<value>255</value>
+						<value>0</value>
 					</var>
 					<var>aB1
-						<value>1</value>
+						<value>0</value>
 					</var>
 					<var>dB0
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB1
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB2
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>dB3
-						<value>10</value>
+						<value>255</value>
 					</var>
 					<var>t
 						<value>2n</value>
@@ -109,6 +109,21 @@
 						<evalType>point</evalType>
 					</output>
 					<output>/DQ&lt;7:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>IDC("/V0/PLUS")
+						<evalType>point</evalType>
+					</output>
+					<output>nil
+						<evalType>point</evalType>
+					</output>
+					<output>Energy_W
+						<evalType>point</evalType>
+					</output>
+					<output>Energy_R
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/I84/I9/I0&lt;31:0&gt;/sn
 						<evalType>point</evalType>
 					</output>
 				</outputs>
